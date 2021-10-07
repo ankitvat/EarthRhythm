@@ -33,8 +33,9 @@ export default function Search({navigation:{navigate}}) {
 						underlineColorAndroid = "transparent"
 						style={{
 							fontFamily:'Circular Std Book',
-							fontSize:scale(14),
+							fontSize:scale(12),
 							color:'black',
+							marginLeft:'2%',
 							
 						}}
 					/>
@@ -48,8 +49,7 @@ export default function Search({navigation:{navigate}}) {
 const styles = StyleSheet.create({
 	parentLayout: {
 		flex:1,
-		alignItems: 'center',
-		justifyContent: 'center',
+	
 		backgroundColor: '#EBEBEB'
 		
 	},
@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
 		paddingVertical:'10%',
 		paddingHorizontal:'4%',
 		width:w,
+		
 	},
 	header: {
 		letterSpacing:-1.5,
@@ -70,7 +71,7 @@ const styles = StyleSheet.create({
 		justifyContent:'flex-start',
 		alignItems:'center',
 		borderRadius:scale(10),
-		paddingHorizontal:'4%',
+		paddingHorizontal:'3%',
 		height:'50%',
 		backgroundColor:'white'
 	},

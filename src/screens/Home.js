@@ -327,7 +327,7 @@ const styles = StyleSheet.create({
   },
   couponContainer: {
     marginTop: '5%',
-    width: w / 1.2,
+    width: w/1.1 ,
     borderRadius: scale(10),
     backgroundColor: '#ffedcf',
     borderColor: '#FCCC8C',

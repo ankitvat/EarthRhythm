@@ -13,7 +13,7 @@ function MainNavigator() {
 	return (
 		
 			<Stack.Navigator 
-			initialRouteName="Onboarding"
+			initialRouteName="BottomNavigator"
 			screenOptions={{
 				headerShown: false,
 			}}
